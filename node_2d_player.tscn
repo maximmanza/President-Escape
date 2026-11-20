@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://chkmwqxm1wwgc"]
+
+[ext_resource type="Texture2D" uid="uid://w1ff88dg2xp8" path="res://dummy_2-removebg-preview.png" id="1_retg7"]
+
+[node name="Node2D-player" type="Node2D" unique_id=215236168]
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=762359014]
+
+[node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=265252995]
+texture = ExtResource("1_retg7")
