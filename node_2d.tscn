@@ -1,0 +1,157 @@
+[gd_scene format=3 uid="uid://cbhwdpiw5jx3n"]
+
+[ext_resource type="Script" uid="uid://ckopv12i2r2jx" path="res://node_2d.gd" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://pxeb7s3ns4ut" path="res://Mørkt fengselskompleks med tittelen PRESIDENT ESCAPE.png" id="1_wtcfe"]
+[ext_resource type="VideoStream" uid="uid://b55n7yhiev2b3" path="res://Backhistory.ogv" id="2_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=822113153]
+script = ExtResource("1_0e48y")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=744349737]
+offset_left = -44.000004
+offset_top = -135.0
+offset_right = 1876.0
+offset_bottom = 945.0
+scale = Vector2(0.6514864, 0.8556828)
+size_flags_horizontal = 3
+stream = ExtResource("2_epypp")
+autoplay = true
+
+[node name="MainMenu" type="Control" parent="." unique_id=1310503807]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Background" type="TextureRect" parent="MainMenu" unique_id=1450642722]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = 6.0
+offset_right = 1631.0
+offset_bottom = 907.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.68719774, 0.6780572)
+texture = ExtResource("1_wtcfe")
+stretch_mode = 6
+
+[node name="PlayButton" type="Button" parent="MainMenu" unique_id=1053117361]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 406.0
+offset_top = 368.0
+offset_right = 706.0
+offset_bottom = 428.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Play"
+
+[node name="SettingsButton" type="Button" parent="MainMenu" unique_id=713167346]
+layout_mode = 0
+offset_left = 426.0
+offset_top = 473.0
+offset_right = 726.0
+offset_bottom = 533.0
+text = "Settings"
+
+[node name="CreditsButton" type="Button" parent="MainMenu" unique_id=169578969]
+layout_mode = 0
+offset_left = 426.0
+offset_top = 538.0
+offset_right = 726.0
+offset_bottom = 598.0
+text = "Credits"
+
+[node name="PlayScreen" type="ColorRect" parent="MainMenu" unique_id=1694987754]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -9.500839
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(37.83711, 16.294823)
+color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+
+[node name="PlayBackButton" type="Button" parent="MainMenu/PlayScreen" unique_id=1930302554]
+layout_mode = 0
+offset_left = 426.0
+offset_top = 540.0
+offset_right = 726.0
+offset_bottom = 600.0
+text = "Back"
+
+[node name="SettingsScreen" type="ColorRect" parent="MainMenu" unique_id=1852699720]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 2.114605
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(27.330187, 16.34003)
+
+[node name="SettingsTitle" type="Label" parent="MainMenu/SettingsScreen" unique_id=455074718]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 300.0
+offset_right = 334.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.0479293, 0.08930723)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "SETTINGS"
+
+[node name="VolumeLabel" type="Label" parent="MainMenu/SettingsScreen" unique_id=1968238124]
+layout_mode = 0
+offset_left = -21.920898
+offset_top = 94.09567
+offset_right = 430.0791
+offset_bottom = 134.09567
+scale = Vector2(0.423543, 0.7020464)
+text = "MUSIC VOLUME: 100%"
+
+[node name="VolumeSlider" type="HSlider" parent="MainMenu/SettingsScreen" unique_id=1434897701]
+layout_mode = 0
+offset_left = -21.920898
+offset_top = 144.09567
+offset_right = 430.0791
+offset_bottom = 184.09567
+scale = Vector2(0.423543, 0.7020464)
+value = 100.0
+
+[node name="FullscreenCheck" type="CheckButton" parent="MainMenu/SettingsScreen" unique_id=251046331]
+layout_mode = 0
+offset_left = 54.0791
+offset_top = 234.09567
+offset_right = 354.0791
+offset_bottom = 284.09567
+scale = Vector2(0.423543, 0.7020464)
+text = "FULLSCREEN"
+
+[node name="SettingsBackButton" type="Button" parent="MainMenu/SettingsScreen" unique_id=235720833]
+layout_mode = 0
+offset_left = 54.0791
+offset_top = 384.09567
+offset_right = 354.0791
+offset_bottom = 444.09567
+scale = Vector2(0.423543, 0.7020464)
+text = "BACK"
+
+[node name="CreditsScreen" type="ColorRect" parent="MainMenu" unique_id=1728911713]
+visible = false
+layout_mode = 0
+offset_right = 42.249733
+offset_bottom = 40.0
+scale = Vector2(27.313782, 16.381842)
