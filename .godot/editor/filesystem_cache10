@@ -1,10 +1,21 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1795165904
+::res://::1795513152
 Backhistory.ogv::VideoStreamTheora::4554865063510506322::1795081171::0::1::::<><><>0<>0<><>::
 dummy_2-removebg-preview.png::CompressedTexture2D::1598142679970136531::1795165829::1795165829::1::::<><><>0<>0<>ef97d6b84442edc815e47cebe13701f6<>res://.godot/imported/dummy_2-removebg-preview.png-5ad8a09c4d6294a6431dc3b6f0c483ef.ctex::
+elevator-icon-set_1284-18294.jpg.png::CompressedTexture2D::8961009049912084684::1795443303::1795443304::1::::<><><>0<>0<>74d73b95042c02c31726879231f86173<>res://.godot/imported/elevator-icon-set_1284-18294.jpg.png-1c0f0cff138bc1df65eea30217823db9.ctex::
 icon.svg::CompressedTexture2D::9005269475474592618::1795074262::1795074263::1::::<><><>0<>0<>0f09c41e5a828d5fc77fe7a829463c21<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.tscn::PackedScene::7504121001368585907::1795165829::0::1::::<><><>0<>0<><>::
+Kart.png::CompressedTexture2D::1241841965491616714::1795439966::1795439967::1::::<><><>0<>0<>cd42156a1ac94f66e1f047dedefdbc2c<>res://.godot/imported/Kart.png-af8ab161c3f7d62d6819d438f1cba583.ctex::
+main.gd::GDScript::1416304115294081787::1795513220::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::7504121001368585907::1795507676::0::1::::<><><>0<>0<><>::uid://b0rmkqkntvvh5::::res://main.gd<>uid://rxs7q3i1o4nm::::res://Kart.png<>uid://d0w1rlmpghoim::::res://elevator-icon-set_1284-18294.jpg.png
 Mørkt fengselskompleks med tittelen PRESIDENT ESCAPE.png::CompressedTexture2D::1100559706522821391::1795078585::1795078586::1::::<><><>0<>0<>080ab03d1b21f7c885ae7e6ea2f7a0ae<>res://.godot/imported/Mørkt fengselskompleks med tittelen PRESIDENT ESCAPE.png-873cc5d97946f274c55164966cbb643c.ctex::
-node_2d.gd::GDScript::5504580756603949741::1795079734::0::1::::<>Node2D<><>0<>0<><>::
-node_2d.tscn::PackedScene::4858822787773968009::1795160383::0::1::::<><><>0<>0<><>::uid://ckopv12i2r2jx::::res://node_2d.gd<>uid://pxeb7s3ns4ut::::res://Mørkt fengselskompleks med tittelen PRESIDENT ESCAPE.png<>uid://b55n7yhiev2b3::::res://Backhistory.ogv
-node_2d_player.tscn::PackedScene::5285575818257095862::1795165829::0::1::::<><><>0<>0<><>::uid://w1ff88dg2xp8::::res://dummy_2-removebg-preview.png
+node_2d.gd::GDScript::5504580756603949741::1795442758::0::1::::<>Node2D<><>0<>0<><>::
+node_2d.tscn::PackedScene::4858822787773968009::1795508071::0::1::::<><><>0<>0<><>::uid://ckopv12i2r2jx::::res://node_2d.gd<>uid://pxeb7s3ns4ut::::res://Mørkt fengselskompleks med tittelen PRESIDENT ESCAPE.png<>uid://b55n7yhiev2b3::::res://Backhistory.ogv
+node_2d_player.gd::GDScript::5894325751540878803::1795513085::0::1::::<>CharacterBody2D<><>0<>0<><>::
+node_2d_player.tscn::PackedScene::5285575818257095862::1795425161::0::1::::<><><>0<>0<><>::uid://w1ff88dg2xp8::::res://dummy_2-removebg-preview.png
+prison_map_reference.png::CompressedTexture2D::5715972957874435146::1795510973::1795511186::1::::<><><>0<>0<>11b167e642baebe9614681e4c6301d36<>res://.godot/imported/prison_map_reference.png-9876f1f11c7b4e75e02223a6f3a9eca8.ctex::
+prison_uniform.gdshader::Shader::547912948859175446::1795511382::0::1::::<><><>0<>0<><>::
+security_camera_left_beam.png::CompressedTexture2D::8223616204527994481::1795512303::1795512307::1::::<><><>0<>0<>4678ec046c9ce2796020d2674983d9d6<>res://.godot/imported/security_camera_left_beam.png-0b00ec39e26e6c6e11b8bc978ee5cbc6.ctex::
+security_camera_left_body.png::CompressedTexture2D::8644170239069175391::1795512303::1795512307::1::::<><><>0<>0<>4246f09b219812e20b844a178dddc15f<>res://.godot/imported/security_camera_left_body.png-9b11af50bd5bcb0a35d062a96274f0a6.ctex::
+security_camera_right_beam.png::CompressedTexture2D::6265423524247412313::1795512303::1795512307::1::::<><><>0<>0<>f82a8dda00497ebff743e8c4d57ee2cd<>res://.godot/imported/security_camera_right_beam.png-6cefd08773d6f19a4369842c1126eb16.ctex::
+security_camera_right_body.png::CompressedTexture2D::5484636185251597455::1795512303::1795512307::1::::<><><>0<>0<>5a5ef2c42a5839a197ad487313e854e9<>res://.godot/imported/security_camera_right_body.png-10bb93f2f1527f29272ef7432b0e8ef6.ctex::
+trump_prison_uniform.png::CompressedTexture2D::183712804289132007::1795513215::1795513308::1::::<><><>0<>0<>f56594ceb958baedbad5736a30ece7b9<>res://.godot/imported/trump_prison_uniform.png-28dbe3b0c590a25ab78f7f2e939048c3.ctex::

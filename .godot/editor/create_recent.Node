@@ -1,8 +1,11 @@
-<<<<<<< HEAD
+TextureRect
+CollisionShape2D
+StaticBody2D
+TileMapLayer
+Node2D
+Button
+Label
 TileMap
-=======
 Sprite2D
 CharacterBody2D
 Node
-Node2D
->>>>>>> 77bc466c9bdc756e0f1314032204ee69521eeb46

@@ -1,0 +1,7 @@
+res://node_2d.tscn
+res://node_2d.gd
+res://node_2d_player.tscn
+res://main.tscn
+res://main.gd
+res://node_2d_player.gd
+res://prison_uniform.gdshader

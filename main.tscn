@@ -1,3 +1,73 @@
-[gd_scene format=3 uid="uid://de6b1nwuv0c16"]
+[gd_scene load_steps=9 format=3]
 
-[node name="main" type="Node2D" unique_id=2090133681]
+[ext_resource type="Script" path="res://main.gd" id="1_main"]
+[ext_resource type="Texture2D" path="res://prison_map_reference.png" id="2_map"]
+[ext_resource type="Texture2D" path="res://trump_prison_uniform.png" id="3_trump"]
+[ext_resource type="Script" path="res://node_2d_player.gd" id="4_player"]
+
+[sub_resource type="RectangleShape2D" id="FloorTop"]
+size = Vector2(2172, 30)
+
+[sub_resource type="RectangleShape2D" id="FloorSecond"]
+size = Vector2(2172, 30)
+
+[sub_resource type="RectangleShape2D" id="FloorThird"]
+size = Vector2(2172, 30)
+
+[sub_resource type="RectangleShape2D" id="FloorBottom"]
+size = Vector2(2172, 30)
+
+[sub_resource type="RectangleShape2D" id="TrumpCollision"]
+size = Vector2(44, 72)
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="Kart" type="Sprite2D" parent="."]
+texture = ExtResource("2_map")
+centered = false
+z_index = -10
+
+[node name="Gulv Øverste" type="StaticBody2D" parent="."]
+position = Vector2(1086, 199)
+
+[node name="Kollisjon" type="CollisionShape2D" parent="Gulv Øverste"]
+shape = SubResource("FloorTop")
+
+[node name="Gulv Andre" type="StaticBody2D" parent="."]
+position = Vector2(1086, 369)
+
+[node name="Kollisjon" type="CollisionShape2D" parent="Gulv Andre"]
+shape = SubResource("FloorSecond")
+
+[node name="Gulv Tredje" type="StaticBody2D" parent="."]
+position = Vector2(1086, 539)
+
+[node name="Kollisjon" type="CollisionShape2D" parent="Gulv Tredje"]
+shape = SubResource("FloorThird")
+
+[node name="Gulv Nederste" type="StaticBody2D" parent="."]
+position = Vector2(1086, 709)
+
+[node name="Kollisjon" type="CollisionShape2D" parent="Gulv Nederste"]
+shape = SubResource("FloorBottom")
+
+[node name="Trump" type="CharacterBody2D" parent="."]
+position = Vector2(280, 148)
+z_index = 5
+script = ExtResource("4_player")
+
+[node name="TrumpSprite" type="Sprite2D" parent="Trump"]
+position = Vector2(0, -8)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("3_trump")
+
+[node name="Kollisjon" type="CollisionShape2D" parent="Trump"]
+shape = SubResource("TrumpCollision")
+
+[node name="Camera2D" type="Camera2D" parent="Trump"]
+zoom = Vector2(0.9, 0.9)
+limit_right = 2172
+limit_bottom = 724
+position_smoothing_enabled = true
+position_smoothing_speed = 5.0
